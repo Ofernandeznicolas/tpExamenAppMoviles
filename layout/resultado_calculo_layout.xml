@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado de calculo: "
+        android:layout_marginBottom="20dp"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pimer inversion"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="left">
+
+        <TextView
+            android:id="@+id/ciUno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capital Inicial"
+            />
+
+        <TextView
+            android:id="@+id/tnaUno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TNA"
+            />
+
+        <TextView
+            android:id="@+id/plazoUno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plazo"
+            />
+
+        <TextView
+            android:id="@+id/rendimiendoUno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rendimiento"
+            />
+
+        <TextView
+            android:id="@+id/roiUno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Roi"
+            />
+
+        <TextView
+            android:id="@+id/cfUno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capital Final"
+            />
+
+     </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Segunda inversion"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="left">
+
+        <TextView
+            android:id="@+id/ciDos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capital Inicial"
+            />
+
+        <TextView
+            android:id="@+id/tnaDos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TNA"
+            />
+
+        <TextView
+            android:id="@+id/plazoDos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plazo"
+            />
+
+        <TextView
+            android:id="@+id/rendimiendoDos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rendimiento"
+            />
+
+        <TextView
+            android:id="@+id/roiDos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Roi"
+            />
+
+        <TextView
+            android:id="@+id/cfDos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capital Final"
+            />
+
+     </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recomendación"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        />
+
+
+    <TextView
+        android:id="@+id/recomendacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recomendaciones"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/btnHistorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Al historial de comparaciones"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:id="@+id/btonComparar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver a comparar"
+        />
+
+    <Button
+        android:id="@+id/btnInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pantalla Inicio"
+
+        />
+</LinearLayout>
