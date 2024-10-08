@@ -20,7 +20,7 @@ después se debe sincronizar el proyecto para que Gradle descargue la biblioteca
 
 Integrantes: 
 
-Fernández, Nicolás
-Luiso, Ricardo
-Moreno, Selena
+Fernández, Nicolás //
+Luiso, Ricardo //
+Moreno, Selena //
 Hurtado Guimarey, Gabriel
