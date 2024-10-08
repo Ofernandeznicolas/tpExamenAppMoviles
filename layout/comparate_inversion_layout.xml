@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textoUno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese la primer inversion"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/primerCI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Capital Inicial"
+        android:layout_margin="20dp"
+        android:textSize="15sp"
+
+        />
+
+    <EditText
+        android:id="@+id/primerTNA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el TNA"
+        android:layout_margin="20dp"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:id="@+id/primerPlazo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el plazo a dias"
+        android:layout_margin="20dp"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/textoDos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese la segunda inversion"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/segundoCI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Capital Inicial"
+        android:layout_margin="20dp"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:id="@+id/segundoTNA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el TNA"
+        android:layout_margin="20dp"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:id="@+id/segundoPlazo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el plazo a dias"
+        android:layout_margin="20dp"
+        android:textSize="15sp"
+        />
+
+
+
+    <Button
+        android:id="@+id/btComparar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular comparación"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/btnPagPricipal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Paguina Principal"
+            android:layout_margin="10dp"
+            />
+
+        <Button
+            android:id="@+id/btnHistorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Al historial   "
+            android:gravity="center"
+            android:layout_margin="10dp"
+            />
+
+
+
+        </LinearLayout>
+
+
+
+</LinearLayout>
