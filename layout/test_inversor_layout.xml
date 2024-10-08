@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity=""
+    android:layout_margin="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Tu edad se encuentra dentro del rango de : "
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+    <RadioGroup
+        android:id="@+id/opcionEdad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/edad1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menos de 25 años."
+            android:tag="1a"
+            />
+
+        <RadioButton
+            android:id="@+id/edad2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="De 25 a 35 años."
+            android:tag="1b"
+            />
+
+        <RadioButton
+            android:id="@+id/edad3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="De 36 a 55 años."
+            android:tag="1c"
+            />
+
+        <RadioButton
+            android:id="@+id/edad4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="De 56 años o más."
+            android:tag="1d"
+            />
+
+
+        </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Qué experiencia tenés como inversionista? : "
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        />
+
+    <RadioGroup
+        android:id="@+id/opcionExperiencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/experiencia1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ninguna."
+            android:tag="2a"
+            />
+
+        <RadioButton
+            android:id="@+id/experiencia2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Baja."
+            android:tag="2b"
+            />
+
+        <RadioButton
+            android:id="@+id/experiencia3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Media."
+            android:tag="2c"
+            />
+
+        <RadioButton
+            android:id="@+id/experiencia4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alta."
+            android:tag="2d"
+            />
+
+      </RadioGroup>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Aproximadamente, qué porcentaje de tus ingresos mensuales ahorrás por mes? : "
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"/>
+
+
+    <RadioGroup
+        android:id="@+id/porcentajeMensual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <RadioButton
+            android:id="@+id/ahorro1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menos del 5%."
+            android:tag="3a"
+            />
+
+        <RadioButton
+            android:id="@+id/ahorro2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entre el 5% y el 20%."
+            android:tag="3b"
+            />
+
+        <RadioButton
+            android:id="@+id/ahorro3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entre el 21% y el 50%."
+            android:tag="3c"
+            />
+
+        <RadioButton
+            android:id="@+id/ahorro4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Más del 50%."
+            android:tag="3d"
+            />
+
+        </RadioGroup>
+
+    <Button
+        android:id="@+id/btTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Evaluar Test"
+        android:layout_gravity="center"
+        android:layout_marginEnd="80dp"
+        android:layout_marginStart="80dp"
+        />
+
+    <TextView
+        android:id="@+id/ResultadO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Su Prefil Es:"
+        android:layout_margin="20dp"
+        android:textSize="20sp"/>
+
+
+    <Button
+        android:id="@+id/btSaveContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar perfil y continuar"
+        android:layout_gravity="center"
+        android:layout_marginEnd="80dp"
+        android:layout_marginStart="80dp"
+        />
+
+
+</LinearLayout>
