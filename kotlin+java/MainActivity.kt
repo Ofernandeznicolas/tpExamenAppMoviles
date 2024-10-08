@@ -14,8 +14,6 @@ class MainActivity : AppCompatActivity() {
 
         enableEdgeToEdge()
 
-        setContentView(R.layout.activity_main)
-
         val AlmacenamientoInterno = getSharedPreferences("infoUsuario", Context.MODE_PRIVATE)
 
         val login = AlmacenamientoInterno.getBoolean("Logueo", false)
