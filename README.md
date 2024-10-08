@@ -16,3 +16,11 @@ dependencies {
 }
 
 después se debe sincronizar el proyecto para que Gradle descargue la biblioteca Gson. Haciendo clic en "Sync Now". 
+
+
+Integrantes: 
+
+Fernández, Nicolás
+Luiso, Ricardo
+Moreno, Selena
+Hurtado Guimarey, Gabriel
