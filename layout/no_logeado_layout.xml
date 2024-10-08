@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/textPantalla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Por favor complete la siguiente información para poder utilizar CompareInvest"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="30dp"
+        />
+
+
+    <EditText
+        android:id="@+id/nameUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su nombre"
+        android:textSize="20sp"
+        android:layout_marginBottom="15dp"
+        />
+
+    <EditText
+        android:id="@+id/ageUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su Apellido"
+        android:textSize="20sp"
+        android:layout_marginBottom="15dp"
+        />
+
+    <EditText
+        android:id="@+id/emailUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su mail"
+        android:textSize="20sp"
+        android:layout_marginBottom="15dp"
+        />
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+
+        <CheckBox
+            android:id="@+id/ChkTerminos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aceptar terminos y condiciones para continuar"
+            android:layout_margin="10dp"
+            />
+
+        <Button
+            android:id="@+id/btnTerminos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ver Termino y condiciones"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        />
+
+</LinearLayout>
