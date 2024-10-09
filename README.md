@@ -1,6 +1,23 @@
 # tpExamenAppMoviles
-Entrega de código para el examen de App Moviles
 
+Integrantes: 
+
+Fernández, Nicolás //
+Luiso, Ricardo //
+Moreno, Selena //
+Hurtado Guimarey, Gabriel
+
+_______________________________________________________________________________
+
+Descripción:
+    La aplicación CompareInvest permite a los usuarios comparar dos inversiones ingresando el
+monto a invertir, la tasa de interés (TNA) y el plazo en días. Devuelve también el valor total, que incluye
+el capital inicial más el rendimiento a lo largo del plazo indicado.
+Incluye funciones para almacenar información del usuario, un historial de comparaciones y un
+test de inversor
+
+
+_______________________________________________________________________________
 
 Para que la app funcione correctamente se debera agregar la dependencia Gson:
 
@@ -18,9 +35,4 @@ dependencies {
 después se debe sincronizar el proyecto para que Gradle descargue la biblioteca Gson. Haciendo clic en "Sync Now". 
 
 
-Integrantes: 
 
-Fernández, Nicolás //
-Luiso, Ricardo //
-Moreno, Selena //
-Hurtado Guimarey, Gabriel
